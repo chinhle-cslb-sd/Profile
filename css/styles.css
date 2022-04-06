@@ -1,0 +1,50 @@
+body {
+    /*body background*/
+    background-image: url('../images/salmon1.png');
+    background-repeat: repeat-x;
+    background-color: rgb(61, 51, 47);
+}
+
+/*Horizontal line*/
+hr {
+    border: 0.5em dashed white;
+}
+
+#main h1, h2, p, ul, ol  {
+    /*main container general style*/
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2.5em;
+    line-height: 1.5em;
+}
+
+#main div h3  {
+    /*main container heading color*/
+    color: yellow;
+}
+
+#aboutMe img {
+    /*Profile image style*/
+    border-color: white;
+    border: 1px 1px 1px 1px;
+    border-style: dashed;
+}
+
+#myProjects a {
+    /*Hyperlink*/
+    color: yellowgreen;
+}
+#myProjects a:hover {
+    /*Change color on mouse over*/
+    color: yellow;
+}
+
+#contactMe a {
+    /*Hyperlink*/
+    color: yellowgreen;
+}
+
+#contactMe a:hover {
+    /*Change color on mouse over*/
+    color: yellow;
+}
