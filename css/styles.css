@@ -1,5 +1,8 @@
+
+
 body {
     /*body background*/
+    cursor: grabbing; /* bonus: change cursor */
     background-image: url('../images/salmon1.png');
     background-repeat: repeat-x;
     background-color: rgb(61, 51, 47);
@@ -34,6 +37,7 @@ hr {
     /*Hyperlink*/
     color: yellowgreen;
 }
+
 #myProjects a:hover {
     /*Change color on mouse over*/
     color: yellow;
